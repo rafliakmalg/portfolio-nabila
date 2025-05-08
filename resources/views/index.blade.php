@@ -19,9 +19,12 @@
     <x-navbar />
     <x-hero />
     <x-project />
+    <x-new-project />
     <x-education-experience />
     <x-contact />
     <x-footer />
+
+    @stack('scripts')
 </body>
 
 </html>
